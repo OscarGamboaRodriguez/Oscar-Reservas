@@ -1,0 +1,92 @@
+2026-11-22 07:24:52 | INFO | Cliente registrado: Cliente [C001] Felipe Jaramillo | felipe@email.com | Tel: 3001234567 | Activo: True
+2026-11-22 07:24:52 | INFO | Intento registro cliente ID: C001
+2026-11-22 07:24:52 | ERROR | Op2 controlada: Correo inválido: correo-mal
+2026-11-22 07:24:52 | INFO | Cliente registrado: Cliente [C003] Laura Torres | laura@fj.com | Tel: 3109876543 | Activo: True
+2026-11-22 07:24:52 | INFO | Intento registro cliente ID: C003
+2026-11-22 07:24:52 | INFO | Servicio agregado: Sala [S001] Sala Reuniones A | Cap: 12 | Proyector: True | $50000.0/hora | Disponible: True
+2026-11-22 07:24:52 | INFO | Servicio agregado: Equipo [S002] Portátil HP (Computo) | Stock: 5 | $80000.0/día | Disponible: True
+2026-11-22 07:24:52 | INFO | Servicio agregado: Asesoría [S003] Asesoría Python | Esp: Ing. Jaramillo | Nivel: Avanzado | $120000.0/hora | Disponible: True
+2026-11-22 07:24:52 | INFO | Reserva R001 CONFIRMADA - Cliente: Felipe Jaramillo - Costo: $170000.0
+2026-11-22 07:24:52 | INFO | Intento de confirmación reserva R001 - Estado final: CONFIRMADA
+2026-11-22 07:24:52 | INFO | Proceso crear_reserva R001 finalizado
+2026-11-22 07:24:52 | ERROR | Crear reserva R002 fallida: Duración debe ser mayor a 0
+2026-11-22 07:24:52 | INFO | Proceso crear_reserva R002 finalizado
+2026-11-22 07:24:52 | ERROR | Reserva R003 falló al confirmar: Solo hay 5 unidades de Portátil HP, pidió 10
+2026-11-22 07:24:52 | INFO | Intento de confirmación reserva R003 - Estado final: PENDIENTE
+2026-11-22 07:24:52 | INFO | Reserva R004 CONFIRMADA - Cliente: Laura Torres - Costo: $384000.0
+2026-11-22 07:24:52 | INFO | Intento de confirmación reserva R004 - Estado final: CONFIRMADA
+2026-11-22 07:24:52 | INFO | Proceso crear_reserva R004 finalizado
+2026-11-22 07:24:52 | INFO | Reserva R004 COMPLETADA - Servicio: Asesoría Python
+2026-11-22 07:24:52 | ERROR | No se puede cancelar una reserva completada
+2026-11-22 07:24:52 | INFO | Intento de cancelación reserva R004
+2026-11-22 07:25:33 | INFO | Cliente registrado: Cliente [C001] Felipe Jaramillo | felipe@email.com | Tel: 3001234567 | Activo: True
+2026-11-22 07:25:33 | INFO | Intento registro cliente ID: C001
+2026-11-22 07:25:33 | ERROR | Op2 controlada: Correo inválido: correo-mal
+2026-11-22 07:25:33 | INFO | Cliente registrado: Cliente [C003] Laura Torres | laura@fj.com | Tel: 3109876543 | Activo: True
+2026-11-22 07:25:33 | INFO | Intento registro cliente ID: C003
+2026-11-22 07:25:33 | INFO | Servicio agregado: Sala [S001] Sala Reuniones A | Cap: 12 | Proyector: True | $50000.0/hora | Disponible: True
+2026-11-22 07:25:33 | INFO | Servicio agregado: Equipo [S002] Portátil HP (Computo) | Stock: 5 | $80000.0/día | Disponible: True
+2026-11-22 07:25:33 | INFO | Servicio agregado: Asesoría [S003] Asesoría Python | Esp: Ing. Jaramillo | Nivel: Avanzado | $120000.0/hora | Disponible: True
+2026-11-22 07:25:33 | INFO | Reserva R001 CONFIRMADA - Cliente: Felipe Jaramillo - Costo: $170000.0
+2026-11-22 07:25:33 | INFO | Intento de confirmación reserva R001 - Estado final: CONFIRMADA
+2026-11-22 07:25:33 | INFO | Proceso crear_reserva R001 finalizado
+2026-11-22 07:25:33 | ERROR | Crear reserva R002 fallida: Duración debe ser mayor a 0
+2026-11-22 07:25:33 | INFO | Proceso crear_reserva R002 finalizado
+2026-11-22 07:25:33 | ERROR | Reserva R003 falló al confirmar: Solo hay 5 unidades de Portátil HP, pidió 10
+2026-11-22 07:25:33 | INFO | Intento de confirmación reserva R003 - Estado final: PENDIENTE
+2026-11-22 07:25:33 | INFO | Reserva R004 CONFIRMADA - Cliente: Laura Torres - Costo: $384000.0
+2026-11-22 07:25:33 | INFO | Intento de confirmación reserva R004 - Estado final: CONFIRMADA
+2026-11-22 07:25:33 | INFO | Proceso crear_reserva R004 finalizado
+2026-11-22 07:25:33 | INFO | Reserva R004 COMPLETADA - Servicio: Asesoría Python
+2026-11-22 07:25:33 | ERROR | No se puede cancelar una reserva completada
+2026-11-22 07:25:33 | INFO | Intento de cancelación reserva R004
+2026-11-22 07:27:22 | ERROR | Op 2 falló: [ERR-110] Correo inválido: mal@ | {'campo': 'correo'}
+2026-11-22 07:27:22 | ERROR | Op 7 falló: [ERR-400] Precio fuera de rango: -500 | {'operacion': 'init'}
+2026-11-22 07:27:22 | INFO | Reserva 3cc26294 CONFIRMADA $574532.0
+2026-11-22 07:27:22 | INFO | Intento confirmar 3cc26294 -> estado CONFIRMADA
+2026-11-22 07:27:22 | ERROR | Confirmar falló 7b163ebb: [ERR-201] Stock 3, pidió 10 | {'servicio_id': '5d5635c1'}
+2026-11-22 07:27:22 | INFO | Intento confirmar 7b163ebb -> estado PENDIENTE
+2026-11-22 07:27:22 | ERROR | Op 9 falló: [ERR-300] Confirmación fallida: [ERR-201] Stock 3, pidió 10 | {'servicio_id': '5d5635c1'} | {'reserva_id': '7b163ebb'}
+2026-11-22 07:27:22 | INFO | Reserva aabf930f CONFIRMADA $1028160.0
+2026-11-22 07:27:22 | INFO | Intento confirmar aabf930f -> estado CONFIRMADA
+2026-11-22 07:27:22 | ERROR | Op 11 falló: [ERR-300] Duración debe ser > 0 | {'reserva_id': None}
+2026-11-22 07:30:17,459 | INFO | Cliente registrado: Cliente [C001] Felipe Jaramillo | felipe@email.com | Tel: 3001234567 | Activo: True
+2026-11-22 07:30:17,459 | INFO | Intento registrar cliente C001
+2026-11-22 07:30:17,460 | INFO | Cliente registrado: Cliente [C003] Laura Torres | laura@fj.com | Tel: 3109876543 | Activo: True
+2026-11-22 07:30:17,461 | INFO | Intento registrar cliente C003
+2026-11-22 07:30:17,461 | INFO | Servicio agregado: Sala [S001] Sala Reuniones A | Capacidad: 12 | Proyector: True | $50000.0/hora | Disponible: True
+2026-11-22 07:30:17,461 | INFO | Servicio agregado: Equipo [S002] Portátil HP (Computo) | Stock: 5 | $80000.0/día | Disponible: True
+2026-11-22 07:30:17,462 | INFO | Servicio agregado: Asesoría [S003] Asesoría Python | Especialista: Ing. Jaramillo | Nivel: Avanzado | $120000.0/hora | Disponible: True
+2026-11-22 07:30:17,462 | INFO | Reserva R001 CONFIRMADA - Felipe Jaramillo - $170000.0
+2026-11-22 07:30:17,462 | INFO | Intento confirmar R001 - Estado: CONFIRMADA
+2026-11-22 07:30:17,463 | INFO | Proceso crear_reserva R001 finalizado
+2026-11-22 07:30:17,463 | ERROR | Crear reserva R002 fallida: Duración debe ser mayor a 0
+2026-11-22 07:30:17,463 | INFO | Proceso crear_reserva R002 finalizado
+2026-11-22 07:30:17,463 | ERROR | Reserva R003 falló: Solo hay 5 unidades, pidió 10
+2026-11-22 07:30:17,463 | INFO | Intento confirmar R003 - Estado: PENDIENTE
+2026-11-22 07:30:17,464 | INFO | Reserva R004 CONFIRMADA - Laura Torres - $384000.0
+2026-11-22 07:30:17,465 | INFO | Intento confirmar R004 - Estado: CONFIRMADA
+2026-11-22 07:30:17,465 | INFO | Proceso crear_reserva R004 finalizado
+2026-11-22 07:30:17,465 | INFO | Reserva R004 COMPLETADA
+2026-11-22 07:30:17,465 | ERROR | No se puede cancelar una completada
+2026-11-22 07:30:17,466 | INFO | Intento cancelar R004
+2026-11-22 07:31:15,028 | INFO | Cliente registrado: Cliente [C001] Felipe Jaramillo | felipe@email.com | Tel: 3001234567 | Activo: True
+2026-11-22 07:31:15,029 | INFO | Intento registrar cliente C001
+2026-11-22 07:31:15,029 | INFO | Cliente registrado: Cliente [C003] Laura Torres | laura@fj.com | Tel: 3109876543 | Activo: True
+2026-11-22 07:31:15,030 | INFO | Intento registrar cliente C003
+2026-11-22 07:31:15,031 | INFO | Servicio agregado: Sala [S001] Sala Reuniones A | Capacidad: 12 | Proyector: True | $50000.0/hora | Disponible: True
+2026-11-22 07:31:15,031 | INFO | Servicio agregado: Equipo [S002] Portátil HP (Computo) | Stock: 5 | $80000.0/día | Disponible: True
+2026-11-22 07:31:15,032 | INFO | Servicio agregado: Asesoría [S003] Asesoría Python | Especialista: Ing. Jaramillo | Nivel: Avanzado | $120000.0/hora | Disponible: True
+2026-11-22 07:31:15,032 | INFO | Reserva R001 CONFIRMADA - Felipe Jaramillo - $170000.0
+2026-11-22 07:31:15,033 | INFO | Intento confirmar R001 - Estado: CONFIRMADA
+2026-11-22 07:31:15,033 | INFO | Proceso crear_reserva R001 finalizado
+2026-11-22 07:31:15,034 | ERROR | Crear reserva R002 fallida: Duración debe ser mayor a 0
+2026-11-22 07:31:15,034 | INFO | Proceso crear_reserva R002 finalizado
+2026-11-22 07:31:15,034 | ERROR | Reserva R003 falló: Solo hay 5 unidades, pidió 10
+2026-11-22 07:31:15,035 | INFO | Intento confirmar R003 - Estado: PENDIENTE
+2026-11-22 07:31:15,035 | INFO | Reserva R004 CONFIRMADA - Laura Torres - $384000.0
+2026-11-22 07:31:15,035 | INFO | Intento confirmar R004 - Estado: CONFIRMADA
+2026-11-22 07:31:15,035 | INFO | Proceso crear_reserva R004 finalizado
+2026-11-22 07:31:15,035 | INFO | Reserva R004 COMPLETADA
+2026-11-22 07:31:15,035 | ERROR | No se puede cancelar una completada
+2026-11-22 07:31:15,035 | INFO | Intento cancelar R004
